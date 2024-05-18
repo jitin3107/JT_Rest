@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GetAndPostExamples {
+public class GetAndPostExamplesTest {
 
 	@Test
 	public void test_Get() {

@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="tests.TestClass"/>
-      <class name="tests.PutPatchDeleteExamples"/>
-      <class name="tests.GetAndPostExamples"/>
+      <class name="tests.PutPatchDeleteExamplesTest"/>
+      <class name="tests.GetAndPostExamplesTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
