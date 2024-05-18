@@ -7,7 +7,7 @@ import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.*;
 
-public class PutPatchDeleteExamples {
+public class PutPatchDeleteExamplesTest {
 
 	@Test
 	public void test_Put() {
@@ -66,5 +66,6 @@ public class PutPatchDeleteExamples {
 		then().
 		statusCode(204).
 		log().all();
+		System.out.println("delete cmd");
 	}
 }
